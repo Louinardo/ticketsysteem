@@ -27,7 +27,7 @@
         
         {{-- <h3><a class ="bi bi-pencil-square" id="change" href={{route('edit_event', $event->id)}}>change event</a></h3> --}}
         
-        <button type="submit" class="btn btn-warning m-2">Submit</button>
+        <button type="submit" class="btn-ticket">Submit</button>
       </form>
     </div>
   </div>

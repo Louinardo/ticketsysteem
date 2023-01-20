@@ -28,7 +28,7 @@
                         <form action="{{ Route('createTicket') }}" method="POST">
                             @csrf
                             <input type="hidden" id="event" name="event" value="{{$event->id}}">
-                            <button type="submit" class="btn btn-warning">Koop hier 1 ticket!</button>
+                            <button type="submit" class="btn-event-list">Koop hier 1 ticket!</button>
 
                         </form>
                     </div>

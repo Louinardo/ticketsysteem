@@ -49,7 +49,7 @@
         <textarea id="description" name="description" class="form-control" rows="4" placeholder="Beschrijving/uitleg van evenemement">{{$event->description}}</textarea>
       </div>
       
-      <button type="submit" class="btn btn-warning">Submit</button>
+      <button type="submit" class="btn-event-change">Submit</button>
       </form>
     </div>
   </div>
