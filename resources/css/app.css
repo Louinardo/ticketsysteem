@@ -17,6 +17,11 @@ body{
 	background-color: #c7bebe;
 }
 
+.tickets
+{
+ width: 54.3%;
+}
+
 .logo{
 	margin-left: 30px;
 	margin-right: 900px;
@@ -58,6 +63,11 @@ table{
 	border: 1px solid black;
 	border-radius: 20px;
 	background-color: #c7bebe;
+}
+
+footer
+{
+margin-top: 20px;
 }
 
 tr:hover{
