@@ -50,7 +50,7 @@
           <textarea id="description" name="description" class="form-control" rows="4" placeholder="Beschrijving/uitleg van evenemement"></textarea>
         </div>
         
-        <button type="submit" class="btn ">Submit</button>
+        <button type="submit" class="btn btn-warning">Submit</button>
       </form>
     </div>
   </div>
