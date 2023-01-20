@@ -41,7 +41,7 @@
         <input type="number" id="price" name="price" value="{{$event->price}}" class="form-control" required="" disabled="disabled">
       </div>
       <div class="form-group col-md-4">
-        <label for="preorder_price">Preorder prijs</label>
+        <label for="preorder_price">Pre-Order prijs</label>
         <input type="number" id="preorder_price" value="{{$event->preorder_price}}" name="preorder_price" class="form-control" required="" disabled="disabled">
       </div>
       <div class="form-group">

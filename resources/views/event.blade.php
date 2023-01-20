@@ -30,7 +30,7 @@
           <input type="date" id="event_end" name="event_end" class="form-control" required="">
         </div>
         <div class="form-group col-md-2">
-          <label for="available_tickets">Maximale Tickets</label>
+          <label for="available_tickets">Beschikbare Tickets</label>
           <input type="number" id="available_tickets" name="available_tickets" class="form-control" required="">
         </div>
         <div class="form-group col-md-4">
@@ -50,7 +50,7 @@
           <textarea id="description" name="description" class="form-control" rows="4" placeholder="Beschrijving/uitleg van evenemement"></textarea>
         </div>
         
-        <button type="submit" class="btn btn-warning">Submit</button>
+        <button type="submit" class="btn ">Submit</button>
       </form>
     </div>
   </div>

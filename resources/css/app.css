@@ -24,14 +24,14 @@ body{
 table{
     width: 100%;
     border: 2px solid black;
-	border-radius: 15px;
+	border-radius: 50px;
 	margin-top: 35px;
 }
 
 
 
 tr:hover{
-	background-color: #d3d3d3;
+	background-color: #c7bebe;
 	}
 
 h1{
@@ -46,7 +46,7 @@ h3{
 #button{
 	border: 1px solid black;
 	border-radius: 15px;
-	background-color: #ffc107;
+	background-color: #c7bebe;
 	padding: 10px;
 }
 
@@ -57,7 +57,7 @@ h3{
 }
 
 #change{
-	background-color: blue;
+	background-color: lightblue;
 	padding: 5px;
 	border-radius: 5px;
 }
@@ -68,7 +68,7 @@ h3{
 }
 
 #button2{
-	background-color: blue;
+	background-color: #c7bebe;
 	padding:5px;
 	font-weight: bold;
 	border-radius: 10px;

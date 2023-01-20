@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-<h1>Uw Tickets</h1>
+<h1>Tickets</h1>
 <div class="row row-cols-4">
     @foreach ($tickets as $ticket)
         @foreach($events as $event)
@@ -22,7 +22,7 @@
                         <li class="list-group-item">Locatie: {{$event->location}}</li>
                     </ul>
                     <div class="card-body">
-                        <h3><a class ="bi-trash" id="delete" href={{route('delete_ticket', $ticket->id)}}>Delete ticket</a></h3>
+                        <h3><a class ="bi-trash" id="delete" href={{route('delete_ticket', $ticket->id)}}>Delete</a></h3>
                         
                     </div>
                     

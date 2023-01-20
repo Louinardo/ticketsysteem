@@ -25,8 +25,8 @@
                     <td>{{$event->event_start}}</td>
                     <td>{{$event->event_end}}</td>
                     <td>
-                        <h3><a class ="bi-trash" id="delete" href={{route('delete_event', $event->id)}}>delete event</a></h3>
-                        <h3><a class ="bi bi-pencil-square" id="change" href={{route('edit_event', $event->id)}}>change event</a></h3>
+                        <h3><a class ="bi-trash" id="delete" href={{route('delete_event', $event->id)}}>Delete</a></h3>
+                        <h3><a class ="bi bi-pencil-square" id="change" href={{route('edit_event', $event->id)}}>Edit</a></h3>
                     </td>
                     
                    

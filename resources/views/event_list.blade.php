@@ -12,7 +12,7 @@
             <div class="row row-cols-4">
                 @foreach ($events as $event)
                 <div class="card m-10" style="width: 18rem;">
-                    <img src="{{$event->photo}}" class="card-img-top" alt="...">
+                    <img src="{{asset( $event->photo )}}" class="card-img-top" alt="load-image">
                     <div class="card-body">
                         <h5 class="card-title">{{$event->name}}</h5>
                         <p class="card-text">Beschrijving: {{$event->description}}</p>
@@ -20,7 +20,7 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Startdatum: {{$event->event_start}}</li>
                         <li class="list-group-item">EindDatum: {{$event->event_end}}</li>
-                        <li class="list-group-item">Beschikbare Tickets: {{$event->available_tickets}}</li>
+                        <li class="list-group-item">Tickets: {{$event->available_tickets}}</li>
                         <li class="list-group-item">Locatie: {{$event->location}}</li>
                         <li class="list-group-item">Prijs: {{$event->price}}</li>
                     </ul>
@@ -28,7 +28,7 @@
                         <form action="{{ Route('createTicket') }}" method="POST">
                             @csrf
                             <input type="hidden" id="event" name="event" value="{{$event->id}}">
-                            <button type="submit" class="btn btn-warning">Koop 1 ticket</button>
+                            <button type="submit" class="btn btn-warning">Koop hier 1 ticket!</button>
 
                         </form>
                     </div>

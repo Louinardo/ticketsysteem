@@ -13,7 +13,7 @@
       <form name="add-blog-post-form" id="add-blog-post-form" method="post" action="{{route ('createTicket')}}">
        @csrf
         <div class="form-group m-2">
-          <label for="event">Evenement</label>
+          <label for="event">Event</label>
           <select name="event" id="event" required="">
             @foreach ($events as $event)
               {{-- <input type="hidden" value="{{$event->available_tickets}}" name="available_tickets"> --}}
